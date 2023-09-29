@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HooksTabScreen from './HooksTabScreen';
-import MobXTabScreen from './MobXTabScreen';
+import HooksTabScreen from '../screens/HooksTabScreen';
+import MobXTabScreen from '../screens/MobXTabScreen';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Tab = createBottomTabNavigator();

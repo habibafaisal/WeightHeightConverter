@@ -8,7 +8,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import {observer} from 'mobx-react';
-import {useMobXStore} from './MobXStore';
+import {useMobXStore} from '../state/MobXStore';
 
 const MobXTabScreen = observer(() => {
   const mobXStore = useMobXStore();

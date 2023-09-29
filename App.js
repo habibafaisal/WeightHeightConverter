@@ -1,10 +1,10 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HooksTabScreen from './HooksTabScreen';
-import MobXTabScreen from './MobXTabScreen';
-import { WeightHeightProvider } from './WeightHeightContext'; // Import the context provider
-import AppNavigator from './Navigation';
+import {NavigationContainer} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import HooksTabScreen from './src/screens/HooksTabScreen';
+import MobXTabScreen from './src/screens/MobXTabScreen';
+import {WeightHeightProvider} from './src/state/WeightHeightContext'; // Import the context provider
+import AppNavigator from './src/navigation/Navigation';
 
 const Tab = createBottomTabNavigator();
 
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <WeightHeightProvider>
       <AppNavigator />
-    </WeightHeightProvider> 
+    </WeightHeightProvider>
   );
 };
 

@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from 'react-native';
-import {useWeightHeight} from './WeightHeightContext';
+import {useWeightHeight} from '../state/WeightHeightContext';
 
 const HooksTabScreen = () => {
   const {
