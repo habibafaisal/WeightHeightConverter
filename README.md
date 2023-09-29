@@ -5,6 +5,7 @@ Follow these steps to quickly set up and run the React Native project with comma
 Clone the Repository:
 
 git clone https://github.com/habibafaisal/WeightHeightConverter.git
+
 Install Dependencies:
 npm install
 
